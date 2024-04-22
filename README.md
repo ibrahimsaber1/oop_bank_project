@@ -1,9 +1,46 @@
-# oop project bank
+# Central Bank Library and Banking System
 
-- Object-oriented banking system: Implements classes and inheritance to model users and banks.
-- Basic banking functionalities: Allows users to deposit, withdraw, and view balances.
-- Loan application system: Includes features for applying for loans with constraints on maximum amounts and durations.
-- Error handling: Provides clear messages for invalid actions, enhancing user experience.
-- Modular design: Code is organized into classes for improved readability and maintainability.
-- Example usage: Offers scenarios demonstrating user creation, transactions, and loan applications.
-- Educational resource: Developed to teach object-oriented programming principles in a practical context.
+## Introduction:
+
+The Central Bank Library and Banking System is a comprehensive Python program developed to facilitate digital library management and banking operations. It offers functionalities to manage library resources efficiently and enables users to perform banking transactions seamlessly.
+
+## Library Management System:
+
+### Task 1:
+
+#### User Class:
+
+- Attributes: `name`, `age`, `gender`, `balance`
+- Method: `show_data` to display previous data
+
+#### Bank Class:
+
+- Inherits from User Class
+- Methods: 
+    - `deposit`: Add deposit amount to balance
+    - `withdraw`: Withdraw amount from balance
+    - `view_balance`: Display current balance
+
+#### CIB Class (Child of Bank):
+
+- Inherits from Bank Class
+- Method: `loan_application` for loan application with constraints on loan amount and duration
+
+#### QNB Class (Child of Bank):
+
+- Inherits from Bank Class
+- Method: `loan_application` for loan application with enhanced constraints on loan amount and duration
+
+## Usage:
+
+1. Clone the repository to your local machine.
+2. Run the `https://github.com/ibrahimsaber1/library_system.git` file to manage library resources.
+3. Run the `bank_application.py` file to perform banking transactions.
+
+## Contributors:
+
+- IBRAHIM SABER https://github.com/ibrahimsaber1 - Creator & Developer
+
+## License:
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
